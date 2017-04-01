@@ -1,8 +1,8 @@
 import praw
 
-reddit = praw.Reddit(client_id='HNFCY4PY4ggISQ',
-					client_secret='mFl0JQHToOLh5OfQCdSMIpvtbqE',
-					user_agent='robot')
+reddit = praw.Reddit(client_id='',
+					client_secret='',
+					user_agent='')
 subreddit = reddit.subreddit("learnpython")
 
 for item in subreddit.hot(limit=2):
